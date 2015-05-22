@@ -25,6 +25,7 @@
     "chai-as-promised": "^4.1.1",
     "chance": "^0.6.1",
     "cli-table": "0.3.0",
+    "combined-stream": "^1.0.3",
     "commander": "2.1.0",
     "cors": "^2.4.1",
     "coveralls": "^2.11.2",
