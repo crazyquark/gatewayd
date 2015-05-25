@@ -84,6 +84,17 @@ You can get usage information for the commandline as follows:
 
     bin/gateway -h
 
+## Debugging ##  
+
+If you only want to debug the main gateway program and not the processes(see NODE_DEBUG above) then you can start a command like this:  
+    
+    node --debug=9090 --debug-brk bin/gateway command_args  
+    
+Then you can launch node-inspector and attach to port 9090 for debugging  
+
+    node-inspector --debug-port=9090  
+    
+
 ## Code Release Process ##
 
 The following is an example flow for releasing changes to master:
