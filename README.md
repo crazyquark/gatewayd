@@ -74,6 +74,8 @@ After installation, start the gateway processes by running the command:
 
     bin/gateway start
 
+If you want to debug the 5 processes, set NODE_DEBUG to true in config/environment.js; this will start node-debug sessions on port 5858, 6868, 7878, 8888 and 9898. Use node-inspector or any other debugger to attach.  
+
 ## Command Line Interface ##
 
 In addition to the REST interface, many pieces of Gatewayd can be controlled directly through the commandline. This is done by running the `gateway` script (`bin/gateway` from the project's top level directory) with the relevant commands.
