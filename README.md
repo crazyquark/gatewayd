@@ -84,7 +84,7 @@ You can get usage information for the commandline as follows:
 
     bin/gateway -h
 
-## Debugging ##  
+## Debugging ##
 
 If you only want to debug the main gateway program and not the processes(see NODE_DEBUG above) then you can start a command like this:  
     
