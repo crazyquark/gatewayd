@@ -9,6 +9,7 @@ nconf
 nconf.defaults({
   'ENVIRONMENT': 'production',
   'NODE_ENV': 'development',
+  'NODE_DEBUG': true,
   'SSL': true,
   'SSL_KEY_PATH': __dirname+'/../env/certs/server.key',
   'SSL_CERTIFICATE_PATH': __dirname+'/../env/certs/server.crt',
@@ -27,7 +28,7 @@ nconf.defaults({
   'WITHDRAWAL_FEE': 0.01, // Required - default 1%
   'DEPOSIT_FEE': 0.01, // Required - default 1%
   'LOGGLY': false,
-  'RIPPLE_REST_API': 'https://api.ripple.com/'
+  'RIPPLE_REST_API': 'http://localhost:5990/'
 });
 
 var DBConfigFile = require(__dirname+'/../lib/data/database.json');
