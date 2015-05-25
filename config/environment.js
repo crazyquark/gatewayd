@@ -9,7 +9,7 @@ nconf
 nconf.defaults({
   'ENVIRONMENT': 'production',
   'NODE_ENV': 'development',
-  'NODE_DEBUG': false,
+  'NODE_DEBUG': true,
   'SSL': true,
   'SSL_KEY_PATH': __dirname+'/../env/certs/server.key',
   'SSL_CERTIFICATE_PATH': __dirname+'/../env/certs/server.crt',
