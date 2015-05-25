@@ -22,12 +22,44 @@
 			"env": { }
 		}, 
 		{
-			"name": "Attach",
+			"name": "Attach gatewayd1",
 			"type": "node",
 			// TCP/IP address. Default is "localhost".
 			"address": "localhost",
 			// Port to attach to.
 			"port": 5858
+		},
+		{
+			"name": "Attach gatewayd2",
+			"type": "node",
+			// TCP/IP address. Default is "localhost".
+			"address": "localhost",
+			// Port to attach to.
+			"port": 6868
+		},
+		{
+			"name": "Attach gatewayd3",
+			"type": "node",
+			// TCP/IP address. Default is "localhost".
+			"address": "localhost",
+			// Port to attach to.
+			"port": 7878
+		},
+		{
+			"name": "Attach gatewayd4",
+			"type": "node",
+			// TCP/IP address. Default is "localhost".
+			"address": "localhost",
+			// Port to attach to.
+			"port": 8888
+		},
+		{
+			"name": "Attach gatewayd5",
+			"type": "node",
+			// TCP/IP address. Default is "localhost".
+			"address": "localhost",
+			// Port to attach to.
+			"port": 9898
 		}
 	]
 }
