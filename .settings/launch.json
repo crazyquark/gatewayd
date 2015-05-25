@@ -22,7 +22,7 @@
 			"env": { }
 		}, 
 		{
-			"name": "Attach gatewayd1",
+			"name": "Attach gatewayd:deposits",
 			"type": "node",
 			// TCP/IP address. Default is "localhost".
 			"address": "localhost",
@@ -30,7 +30,7 @@
 			"port": 5858
 		},
 		{
-			"name": "Attach gatewayd2",
+			"name": "Attach gatewayd:withdrawals",
 			"type": "node",
 			// TCP/IP address. Default is "localhost".
 			"address": "localhost",
@@ -38,7 +38,7 @@
 			"port": 6868
 		},
 		{
-			"name": "Attach gatewayd3",
+			"name": "Attach gatewayd:server",
 			"type": "node",
 			// TCP/IP address. Default is "localhost".
 			"address": "localhost",
@@ -46,7 +46,7 @@
 			"port": 7878
 		},
 		{
-			"name": "Attach gatewayd4",
+			"name": "Attach gatewayd:incoming",
 			"type": "node",
 			// TCP/IP address. Default is "localhost".
 			"address": "localhost",
@@ -54,7 +54,7 @@
 			"port": 8888
 		},
 		{
-			"name": "Attach gatewayd5",
+			"name": "Attach gatewayd:outgoing",
 			"type": "node",
 			// TCP/IP address. Default is "localhost".
 			"address": "localhost",
