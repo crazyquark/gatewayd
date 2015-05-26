@@ -74,7 +74,7 @@ After installation, start the gateway processes by running the command:
 
     bin/gateway start
 
-If you want to debug the 5 processes, set NODE_DEBUG to true in config/environment.js; this will start node-debug sessions on port 5858, 6868, 7878, 8888 and 9898. Use node-inspector or any other debugger to attach.  
+If you want to debug the 5 processes, set `NODE_DEBUG` to true in config/environment.js; this will start node-debug sessions on port 5858, 6868, 7878, 8888 and 9898. Use node-inspector or any other debugger to attach.  
 
 ## Command Line Interface ##
 
@@ -86,7 +86,7 @@ You can get usage information for the commandline as follows:
 
 ## Debugging ##
 
-If you only want to debug the main gateway program and not the processes(see NODE_DEBUG above) then you can start a command like this:  
+If you only want to debug the main gateway program and not the processes(see `NODE_DEBUG` above) then you can start a command like this:  
     
     node --debug=9090 --debug-brk bin/gateway command_args  
     
@@ -100,9 +100,9 @@ In order to be able to use the Gateway Admin WebApp please do a:
 
     cp config/example-config.json config/config.json
     
-The config.json file overwrites the default values provided by the config/environment.js file. Of particular interest are the USER_AUTH and KEY values.
-The USER_AUTH = true will let users login into the webapp and register new accounts.
-The admin has a built-in account(hardcoded in the JS code) with the username: admin@DOMAIN (by default the DOMAIN is example.com in config.json) and the password is the KEY value found in config.json.
+The config.json file overwrites the default values provided by the config/environment.js file. Of particular interest are the `USER_AUTH` and `KEY` values.
+The `USER_AUTH = true` setting will let users login into the webapp and register new accounts.
+The admin has a built-in account(hardcoded in the JS code) with the username: admin@DOMAIN (by default the `DOMAIN` is example.com in config.json) and the password is the `KEY` value found in config.json.
 
 ## Code Release Process ##
 
