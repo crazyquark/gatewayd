@@ -5,6 +5,24 @@
 	"configurations": [
 		{
 			// Name of configuration; appears in the launch configuration drop down menu.
+			"name": "Generate wallet",
+			// Type of configuration. Possible values: "node", "mono".
+			"type": "node",
+			// Workspace relative or absolute path to the program.
+			"program": "bin/gateway",
+			// Automatically stop program after launch.
+			"stopOnEntry": true,
+			// Command line arguments passed to the program.
+			"args": ["generate_wallet"],
+			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
+			"cwd": ".",
+			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
+			"runtimeExecutable": null,
+			// Environment variables passed to the program.
+			"env": { }
+		},
+		{
+			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch gatewayd",
 			// Type of configuration. Possible values: "node", "mono".
 			"type": "node",
