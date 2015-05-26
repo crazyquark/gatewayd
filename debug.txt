@@ -1,2 +1,0 @@
-pm2 stop processes/server.js
-pm2 start --node-args="--debug=5858" processes/server.js
