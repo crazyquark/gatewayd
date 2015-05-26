@@ -21,7 +21,7 @@
 - Made incoming process backwards compatible to the new ripple rest response structure
 - Removed unneeded associations and foreign key constraints
 - Model associations were adding random columns that don't exist to queries
-- Change config to correct `createdAt` column no being able to be changed to a future date
+- Change config to correct `createdAt` column not being able to be changed to a future date
 - Withdrawals to lookup using the correct field
 
 ### 01/06/2014
