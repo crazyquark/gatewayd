@@ -1,7 +1,0 @@
-{
-  "WEBAPP": true,
-  "WEBAPP_PATH": "./node_modules/gatewayd-admin/",
-  "SSL": false,
-  "PORT": 5000,
-  "RIPPLE_REST_API": "http://localhost:5990"
-}
