@@ -2,6 +2,7 @@ node_modules/
 .DS_Store
 *.swo
 *.swp
+*~
 nohup.out
 log/server.log
 config/config.json
