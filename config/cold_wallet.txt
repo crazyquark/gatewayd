@@ -1,0 +1,2 @@
+//Secret is shrixAzTwHCDGfYTMUFcqhwdWVzCp
+"COLD_WALLET": "r4gzWvzzJS2xLuga9bBc3XmzRMPH3VvxXg"
