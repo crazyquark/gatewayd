@@ -16,5 +16,10 @@
   "DATABASE_LOGGING": false,
   "DATABASE_URL": null,
   "COLD_WALLET": "r4gzWvzzJS2xLuga9bBc3XmzRMPH3VvxXg",
-  "CURRENCIES": {}
+  "CURRENCIES": {},
+  "HOT_WALLET": {
+    "address": "r9r462ihKgMvW1RK29kXUVPBQYM5Mpkxtw",
+    "secret": "ssZ4Yy1hhCwYERNpg7s1PsCmAuuEM",
+    "id": 6
+  }
 }
