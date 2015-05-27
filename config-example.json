@@ -2,7 +2,7 @@
   "WEBAPP": true,
   "WEBAPP_PATH": "./node_modules/gatewayd-admin/",
   "KEY": "mysup3rs3cr3t@ap!k3y",
-  "BASIC_AUTH": true,
+  "BASIC_AUTH": false,
   "USER_AUTH": true,
   "SSL": true,
   "PORT": 5000,
