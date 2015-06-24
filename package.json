@@ -37,7 +37,7 @@
     "flipper": "0.0.3",
     "forever": "",
     "gatewayd-admin": "1.10.0",
-    "gatewayd-setup-wizard-plugin": "^2.0.5",
+    "gatewayd-setup-wizard-plugin": "crazyquark/setup-wizard-plugin",
     "grunt": "^0.4.4",
     "grunt-cli": "^0.1.13",
     "grunt-db-migrate": "^0.2.0",
