@@ -36,7 +36,7 @@
     "express-authorization": "0.1.1",
     "flipper": "0.0.3",
     "forever": "",
-    "gatewayd-admin": "1.10.0",
+    "gatewayd-admin": "crazyquark/gatewayd-admin",
     "gatewayd-setup-wizard-plugin": "crazyquark/setup-wizard-plugin",
     "grunt": "^0.4.4",
     "grunt-cli": "^0.1.13",
