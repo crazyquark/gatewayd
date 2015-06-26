@@ -73,7 +73,7 @@ program
   .action(cli.addExternalAccount);
 
 program
-  .command('register_user <username> <password> <ripple_address>')
+  .command('register_user <username> <password> <ripple_address> <secret> <currency> <amount>')
   .description('create a user with a ripple address')
   .action(cli.registerUser);
 
