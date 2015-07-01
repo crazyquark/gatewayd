@@ -14,3 +14,4 @@ logs/*.log
 Gatewaydfile.js
 coverage
 /scripts/root.txt
+.idea
