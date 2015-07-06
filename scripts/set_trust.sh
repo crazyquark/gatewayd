@@ -11,4 +11,4 @@ if [ -z $SECRET ]
 		SECRET="ss7UiTtTVJYXfSNGAkTPLDRD8Tmpd"
 fi
 
-curl -v -H "Content-Type: application/json" -X POST --data-binary '{ "secret": "'"$SECRET"'", "trustline": { "limit": "100",  "currency": "EUR",  "counterparty": "r4gzWvzzJS2xLuga9bBc3XmzRMPH3VvxXg", "account_allows_rippling": true } }' http://localhost:5990/v1/accounts/$ACCOUNT/trustlines
+curl -H "Accept: application/json" -H 'Content-Type: application/json' -X POST -d '{ "secret": "'"$SECRET"'", "trustline": { "limit": "100",  "currency": "EUR",  "counterparty": "r4gzWvzzJS2xLuga9bBc3XmzRMPH3VvxXg", "account_allows_rippling": true } }' http://localhost:5990/v1/accounts/$ACCOUNT/trustlines
